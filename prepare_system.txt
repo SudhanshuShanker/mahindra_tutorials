@@ -1,0 +1,39 @@
+1) Download pdbfile from https://ambermd.org/tutorials/basic/tutorial1/files/pdb_files/nuc.pdb
+   use:
+   wget https://ambermd.org/tutorials/basic/tutorial1/files/pdb_files/nuc.pdb
+
+
+2)Run xleap: to prepapre system
+xleap -s -f $AMBERHOME/dat/leap/cmd/leaprc.DNA.bsc1
+
+3) add tip3p water model
+source leaprc.water.tip3p
+
+4) Load pdb file
+dna1 = loadpdb nuc.pdb
+
+5) have a look on structure
+edit dna1
+
+DO NOT CLOSE THIS WINDOW USING "X"
+
+6) save  parameter and coordinates for in vacuo simulation
+saveamberparm dna1 polyAT_vac.prmtop polyAT_vac.rst7
+
+7) save parameters neutral
+addions dna1 Na+ 0
+edit dna1
+saveamberparm dna1 polyAT_cio.prmtop polyAT_cio.rst7
+
+8) save for explicit
+dna2 = copy dna1
+solvatebox dna1 TIP3PBOX 8.0
+edit dna1
+solvateoct dna2 TIP3PBOX 8.0
+edit dna2
+saveamberparm dna2 polyAT_wat.prmtop polyAT_wat.rst7
+
+
+
+
+
