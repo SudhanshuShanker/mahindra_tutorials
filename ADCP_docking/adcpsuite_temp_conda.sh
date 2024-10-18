@@ -26,7 +26,7 @@ for i in $(seq ${CONDA_SHLVL}); do
     conda deactivate
 done
 
-if ! conda env list | grep " $env_name " >/dev/null 2>&1;
+if ! conda env list | grep "^$env_name " >/dev/null 2>&1;
 then
     echo "Creating '$env_name' environment."
     yes | conda create -n $env_name python=3.7 -c conda-forge --override-channels > /dev/null
@@ -45,7 +45,7 @@ echo "Installing Adsuite Packages from ccsb.scripps.edu..."
 # 
 # #Download required packages
 # #Download required packages
-ADCP_TMP_DIR='./ADCP_TMP_DIR'
+ADCP_TMP_DIR=~/AdcpTmpDir
 mkdir $ADCP_TMP_DIR
 
 for pkglnk in \

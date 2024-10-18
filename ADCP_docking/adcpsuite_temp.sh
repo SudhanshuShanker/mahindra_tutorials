@@ -37,7 +37,7 @@ echo "Installing Adsuite Packages from ccsb.scripps.edu..."
 # 
 # #Download required packages
 # #Download required packages
-ADCP_TMP_DIR='./ADCP_TMP_DIR'
+ADCP_TMP_DIR=~/AdcpTmpDir
 mkdir $ADCP_TMP_DIR
 
 for pkglnk in \
