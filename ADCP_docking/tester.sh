@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir test_ADCP
 cd test_ADCP
-wget -O https://raw.githubusercontent.com/SudhanshuShanker/mahindra_tutorials/refs/heads/main/ADCP_docking/bench_set/3q47/3q47.pdb 
+wget https://raw.githubusercontent.com/SudhanshuShanker/mahindra_tutorials/refs/heads/main/ADCP_docking/bench_set/3q47/3q47.pdb 
 wget https://raw.githubusercontent.com/SudhanshuShanker/mahindra_tutorials/refs/heads/main/ADCP_docking/bench_set/3q47/3q47_rec.pdb
 wget https://raw.githubusercontent.com/SudhanshuShanker/mahindra_tutorials/refs/heads/main/ADCP_docking/bench_set/3q47/3q47_pep.pdb
 
