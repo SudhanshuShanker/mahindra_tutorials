@@ -59,6 +59,8 @@ This command may take a few minutes to complete. After completion, it will gener
 cat test_ADCP\log.out
 ```
 
+**MORE DETAILS ON RUNNING ADCP BASED DOCKING CAN BE FOUND FROM THE CCSB SITE**  
+https://ccsb.scripps.edu/adcpv11/documentation/ 
 
 
 
