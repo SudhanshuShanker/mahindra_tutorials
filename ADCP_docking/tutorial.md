@@ -13,7 +13,8 @@ https://files.rcsb.org/download/3Q47.pdb
 Clear Water   
 Save receptor and peptide pdb files  
   
-**Add H:**  
+**Add H:**
+Use reduce command in terminal to add hydrogens
 ```sh
 reduce 3q47_rec.pdb > 3q47_recH.pdb  
 reduce 3q47_pep.pdb > 3q47_pepH.pdb  
