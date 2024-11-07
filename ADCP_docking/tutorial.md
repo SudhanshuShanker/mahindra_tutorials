@@ -27,7 +27,7 @@ prepare_ligand -l 3q47_pepH.pdb
   
 **Create target File:**  
 ```sh
-agfr -r 3q47_recH.pdbqt -l 3q47_pepH.pdbqt -asv 1.1 -o 3q47 (command line)
+agfr -r 3q47_recH.pdbqt -l 3q47_pepH.pdbqt -asv 1.1 -o 3q47 
 ```
   
 **Display target file with agfrgui**    
