@@ -42,7 +42,7 @@ adcp -T 3q47.trg -s "npisdvd" -N 2 -n 2000 -w testDir -o testNSAAandD -O
   
 **minimize 2 solutions after docking**  
 ```sh
-adcp -T 3q47.trg -s "npisdvd" -N 2 -n 2000 -w testDir -o testNSAAandD -O
+adcp -T 3q47.trg -s "npisdvd" -N 2 -n 2000 -w testDir -o testNSAAandD -O -nmin 2
 ```
     
 **Display files**  
@@ -58,7 +58,7 @@ cat  $CONDA_PREFIX/lib/python3.7/site-packages/ADCP/data/rotamers/SWISS_ROTAMER_
 https://www.swisssidechain.ch/data/family_table.pdf  
 
 ```sh
-adcp -T 3q47.trg -s "n<HGA>pisdvd" -N 5 -n 2000 **-L swiss** -w testDir -o testNSAAandD -O -nmin 2
+adcp -T 3q47.trg -s "n<HGA>pisdvd" -N 5 -n 2000 -L swiss -w testDir -o testNSAAandD -O -nmin 2
 ```
    
 **try some thing random**  
