@@ -62,7 +62,7 @@ https://www.swisssidechain.ch/data/family_table.pdf
 adcp -T 3q47.trg -s "n<HGA>pisdvd" -N 5 -n 2000 -L swiss -w testDir -o testNSAAandD -O -nmin 2
 ```
    
-**try some thing random**  
+**try something random**  
 ```
 adcp -T 3q47.trg -s "n<ADAM>pisdvd" -N 5 -n 2000 -L swiss -w testDir -o testNSAAandD -O -nmin 2
 ```
