@@ -1,0 +1,14 @@
+SEQ  1    VNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFGYKGS   50          1AWR
+STR          EEEEEEEETTEEEEEEEEEETTTTTHHHHHHHHHHHHTTTT  TTTE               1AWR
+REM                                                                        1AWR
+REM                .         .         .         .         .               1AWR
+SEQ  51   CFHRIIPGFMCQGGDFTRHNGTGGKSIYGEKFEDENFILKHTGPGILSMA  100          1AWR
+STR       ETTEEETTTEEEE TTTTTTT    TTTTTTB          TTTEEEE                1AWR
+REM                                                                        1AWR
+REM                .         .         .         .         .               1AWR
+SEQ  101  NAGPNTNGSQFFICTAKTEWLDGKHVVFGKVKEGMNIVEAMERFGSRNGK  150          1AWR
+STR         TTTTB   EEEE    GGGTTTT EEEEEEETHHHHHHHGGG BTTBB               1AWR
+REM                                                                        1AWR
+REM                .                                                       1AWR
+SEQ  151  TSKKITIADCGQLE                                      164          1AWR
+STR       TTTTEEEEEEEE                                                     1AWR

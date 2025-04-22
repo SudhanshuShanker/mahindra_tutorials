@@ -1,0 +1,20 @@
+Query 1   VNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFGYKGSCFHRIIPGFMCQGGDFTRHN 70 
+Helix 1       HHHHHHHHH     HHHHHHHHHHHHHHHHHHH                HHHHHH            70 
+Sheet 1   EEEEEEEEE         EEEEE                           EEEEEEEEEEE          70 
+Turns 1     T         TT           T   T  T        TT     T             TT       70 
+Struc 1   EEEEEEHEEHHHTTCCCCHHHHHHHTHHHHHHHHHHHCCCCTTCCCCCTCEEEEEEEEEEECTTCCCCCC 70 
+
+                   *         *         *         *         *         *         
+Query 71  GTGGKSIYGEKFEDENFILKHTGPGILSMANAGPNTNGSQFFICTAKTEWLDGKHVVFGKVKEGMNIVEA 140 
+Helix 71        HHHHHHHHHHHHHH     HHHHHH        HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 140 
+Sheet 71                  EEE                    EEEEE           EEE             140 
+Turns 71     TT    T   TT        T         T   TT        T    T         T        140 
+Struc 71  CCCTTCHHHHHHHTHHEEHHCCCTCHHHHHHCCTCCCTTEEEEHHHHHHHHHTHHEEEHHHHTHHHHHHH 140 
+
+                   *         *    
+Query 141 MERFGSRNGKTSKKITIADCGQLE 164 
+Helix 141 HHH      HHHHHHHHH       164 
+Sheet 141               EEE        164 
+Turns 141      T  T   T            164 
+Struc 141 HHHCCTCCTHHHHHEHHHCCCCCC 164 
+
