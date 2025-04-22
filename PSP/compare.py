@@ -12,17 +12,6 @@ stride ='CCCEEEEEEEETTEEEEEEEEEETTTTTHHHHHHHHHHHHTTTTCCTTTEETTEEETTTEEEECTTTTT\
 TTCCCCTTTTTTBCCCCCCCCCCTTTEEEECCCTTTTBCCCEEEECCCCGGGTTTTCEEEEEEETHHHHHHHGGGCBT\
 TBBTTTTEEEEEEEECC'
 
-## convert 
-# H	α-helix	H
-# G	310-helix	H
-# I	π-helix	H
-# E	β-strand (extended conformation)	E
-# B	Isolated β-bridge	E
-# T	Turn	C
-# S	Bend	C
-# C (or ' ')	Coil	C
-
-
 cfPrediction = "EEEEEEHEEHHHTTCCCCHHHHHHHTHHHHHHHHHHHCCCCTTCCCCCTCEEEEEEEEEEEC\
 TTCCCCCCCCCTTCHHHHHHHTHHEEHHCCCTCHHHHHHCCTCCCTTEEEEHHHHHHHHHTHHEEEHHHHTHHHHHHH\
 HHHCCTCCTHHHHHEHHHCCCCCC"
@@ -34,10 +23,47 @@ HHHHHH--------EEEEEEEEEEE--"
 
 
 
-
 convDict = {'H':'H', 'G':'H', 'I':'H',
             'E':'E', 'B':'E', 
             'T':'C', 'S':'C', 'C':'C', ' ':'C', '-':'C'}
+
+
+def Conv2HEC(inSeq):    
+    OutSeq=''    
+    for c in inSeq:
+        cOut =  convDict[c]
+        OutSeq = OutSeq + cOut
+    
+    return OutSeq
+
+convStride = Conv2HEC(stride)
+convCF = Conv2HEC(cfPrediction)
+convJP = Conv2HEC(JPredPrediction)
+
+
+count = 0
+for i,j in zip(convStride, convJP):
+    if i==j:
+        count +=1
+        
+print(count/len(convStride))
+    
+
+## convert 
+# H	α-helix	H
+# G	310-helix	H
+# I	π-helix	H
+# E	β-strand (extended conformation)	E
+# B	Isolated β-bridge	E
+# T	Turn	C
+# S	Bend	C
+# C (or ' ')	Coil	C
+
+
+
+
+
+
 
 
 
