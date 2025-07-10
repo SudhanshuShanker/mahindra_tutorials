@@ -1,0 +1,3 @@
+channels: 
+- https://conda.graylab.jhu.edu
+- defaults
