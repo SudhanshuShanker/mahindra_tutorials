@@ -7,7 +7,6 @@ a bacterial ribonuclease and its mutant inhibitor barstar
 
 **Steps to perform docking using Cluspro**  
 ***Let's save Chain A and D for docking study***  
-steps:   
 1) download pdb file 1BRS  
 2) open in chimera  
 
